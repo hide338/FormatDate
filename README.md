@@ -39,7 +39,11 @@ FromatDate
 
 ### format関数に、日付と変換したい内容を引数で渡します
 
-``
+`$format_date->format('Y-m-d')`
+
+変換フォーマットは、dateTimeクラスで指定できるものに加えて下記の内容が指定可能です。
+
+
 
 <p align="right">(<a href="#top">トップへ</a>)</p>
 
