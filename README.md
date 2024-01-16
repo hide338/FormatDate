@@ -33,9 +33,13 @@ FromatDate
 
 ## 使用方法
 
-### インスタンスを作成し、引数にpdo情報を渡します
+### インスタンスを作成します
+
+`$format_date = new FormatDate();`
 
 ### format関数に、日付と変換したい内容を引数で渡します
+
+``
 
 <p align="right">(<a href="#top">トップへ</a>)</p>
 
