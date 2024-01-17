@@ -33,11 +33,11 @@ FromatDate
 
 ## 使用方法
 
-### インスタンスを作成します
+### インスタンスを作成し、任意の日付を引数に渡します
 
-`$format_date = new FormatDate();`
+`$format_date = new FormatDate('$date');`
 
-### format関数に、日付と変換したい内容を引数で渡します
+### format関数に、変換したい指定子を含めた文字列を引数で渡します
 
 `$format_date->format('Y-m-d')`
 
@@ -56,6 +56,8 @@ FromatDate
 
  具体的なコード解説などはブログにまとめているので、気になった方はブログ記事もチェックしてみてください。<br>
  下記のリンクよりブログ記事が閲覧可能です。
+
+<p align="left">(<a href="https://hide-log.net/created_formatdate">ブログ記事→【PHP】日本語対応の日付フォーマットオブジェクトを作る</a>)</p>
 
 <p align="right">(<a href="#top">トップへ</a>)</p>
 
